@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import AboutOddi from "./components/AboutOddi";
-import Newsletter from "./components/Newsletter";
+import InterestForm from "./components/InterestForm";
 import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import Copyright from "./components/Copyright";
@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
       <Landing/>
       <AboutOddi/>
-      <Newsletter/>
+      <InterestForm/>
       <Footer/>
       <Copyright/>
     </div>
