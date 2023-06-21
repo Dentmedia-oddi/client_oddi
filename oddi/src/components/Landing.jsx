@@ -11,6 +11,7 @@ function Landing() {
     <div className="text-white">
       <div className="max-w-[800px] mt-[-80px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <h1 className="md:text-7xl sm:text-6xl text-3xl  md:py-2 ">ODDI</h1>
+        <h3 className="md:text-4xl sm:text-2xl text-xl  md:py-2 ">Odonto Diagrama Digital</h3>
         <div className="flex justify-center items-center">
           <p className="md:text-2xl sm:text-xl text-xl font-Regular">{text}</p>
         </div>

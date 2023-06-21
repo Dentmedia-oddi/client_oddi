@@ -4,15 +4,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;800&display=swap');
 
-
-  @font-face {
-    font-family: 'Montserrat', sans-serif;;
-    src: url('/fonts/Montserrat/static/Montserrat-Thin.ttf') format('truetype'),
-    url('/fonts/Montserrat/static/Montserrat-ExtraLight.ttf') format('truetype'),
-    url('/fonts/Montserrat/static/Montserrat-Light.ttf') format('truetype'),
-    url('/fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('truetype'),
-  }
-
 body{
   background-color: #250E62;
 }
