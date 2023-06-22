@@ -12,7 +12,7 @@ function Footer() {
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white justify-center">
       <div>
         <img src={Logo} alt="Logo" style={{ width: "60px" }} />
-        <p className="py-4">Plataforma mediada por IA.</p>
+        <p className="py-4">Odonto Diagrama Digital</p>
         <div className="flex justify-between md:w-[75%] my-6 ">
           <FaFacebookSquare size={30} />
           <FaInstagramSquare size={30} />
@@ -34,6 +34,7 @@ function Footer() {
           <ul>
             <li className="py-2 text-sm">Blog de noticias</li>
             <li className="py-2 text-sm">Contacto</li>
+            <li className="py-2 text-sm">Nuestro equipo</li>
           </ul>
         </div>
         <div>

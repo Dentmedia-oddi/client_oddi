@@ -1,14 +1,14 @@
 import React from "react";
 
-function Newsletter() {
+function InterestForm() {
   return (
     <div className="w-full py-16 text-white px-4">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 my-4">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold pb-4">
-            ¿Deseas recibir más información?
+            ¿Te gustaría participar en nuestra <br/> prueba piloto?
           </h1>
-          <p>Suscribete a nuestro boletín y mantente informado(a).</p>
+          <p>Indicanos tu correo y te contactaremos.</p>
         </div>
         <div className="my-4">
             <div className="flex flex-col sm:flex-row items-center justify-between w-full">
@@ -17,11 +17,11 @@ function Newsletter() {
           Enviar
         </button>
             </div>
-        <p>Nos preocupamos por la seguridad de tú información personal.  Por aquí nuestra <span className="text-[#1DCAD3]">Política de privacidad</span>.</p>
+        {/* <p>Nos preocupamos por la seguridad de tú información personal.  Por aquí nuestra <span className="text-[#1DCAD3]">Política de privacidad</span>.</p> */}
         </div>
       </div>
     </div>
   );
 }
 
-export default Newsletter;
+export default InterestForm;
