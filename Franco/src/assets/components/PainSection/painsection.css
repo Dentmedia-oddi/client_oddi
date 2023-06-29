@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font-Montserrat: "montserrat", sans-serif;
+    /* Recordar Montserrat Weigth de 300 Apoyo y 700 Principal */
+    --font-Mortise: "Mortise", sans-serif;
+    /* Recordar Mortise Weigth de 200 para secundarios  */
+    --Palatine-Blue: #5129E0;
+    --Federal-Blue: #250E62;
+    --White-Smoke: #F2F2F2;
+    --Night-: #0D0E0F
+}
+.btnchildContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.childContainer {
+    padding: 10px;
+}
+.title {
+    font-family: var(--font-Montserrat);
+    color: var(--White-Smoke);
+    font-weight: 700;
+}
+.secondTitle {
+    font-family: var(--font-Montserrat);
+    color: var(--White-Smoke);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.btnSwitch {
+    font-size: 1.5rem;
+}
+.btnPainContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btnPainContainerShow {
+    display: block;
+}
+
+.btnPainContainerHidden {
+    display: none;
+}
