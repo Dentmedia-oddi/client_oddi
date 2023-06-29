@@ -15,7 +15,7 @@ function InterestForm() {
            
             <form>
             <input
-              className="p-3 my-2 flex w-full rounded-md text-black"
+              className="p-3 my-2 w-[300px] flex  rounded-md text-black"
               type="text"
               placeholder="Ingresa tu nombre y apellido"
             />
