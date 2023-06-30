@@ -6,7 +6,7 @@ function InterestForm() {
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 my-4">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold pb-4">
-            ¿Tienes dudas respecto a ODDI?
+            ¿Quieres saber más?
           </h1>
           <p>Escribenos y con gusto aclararemos cualquier inquietud que tengas.</p>
         </div>
