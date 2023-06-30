@@ -1,11 +1,24 @@
 import React from "react";
 import mj from "../assets/mj.jpg";
-import gaby from "../assets/gaby.jpeg";
-import norkys from "../assets/nor.jpeg";
+import gaby from "../assets/gaby.jpg";
+import norkys from "../assets/nor.jpg";
 import franco from "../assets/franco.jpg";
 import alex from "../assets/alex.jpg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
+const {
+  REACT_APP_LINKEDIN_MJ_PROFILE,
+  REACT_APP_GITHUB_MJ_PROFILE,
+  REACT_APP_LINKEDIN_GABY_PROFILE,
+  REACT_APP_GITHUB_GABY_PROFILE,
+  REACT_APP_LINKEDIN_NORKYS_PROFILE,
+  REACT_APP_GITHUB_NORKYS_PROFILE,
+  REACT_APP_LINKEDIN_FRANCO_PROFILE,
+  REACT_APP_GITHUB_FRANCO_PROFILE,
+  REACT_APP_LINKEDIN_ALEX_PROFILE,
+  REACT_APP_GITHUB_ALEX_PROFILE,
+} = process.env;
 
 function TheTeam() {
   return (
@@ -49,8 +62,20 @@ function TheTeam() {
             Ma. Julia Fernández - DDS | Mtr. Innovación en Salud digital
           </p>
           <div className="flex justify-center">
-            <FaGithubSquare size={30} />
-            <FaLinkedin size={30} />
+          <Link
+              to={REACT_APP_LINKEDIN_MJ_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} />
+            </Link>
+            <Link
+              to={REACT_APP_GITHUB_MJ_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare size={30} />
+            </Link>
           </div>
         </div>
 
@@ -61,8 +86,20 @@ function TheTeam() {
             Specialist
           </p>
           <div className="flex justify-center">
-            <FaGithubSquare size={30} />
-            <FaLinkedin size={30} />
+            <Link
+              to={REACT_APP_LINKEDIN_GABY_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} />
+            </Link>
+            <Link
+              to={REACT_APP_GITHUB_GABY_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare size={30} />
+            </Link>
           </div>
         </div>
 
@@ -72,8 +109,20 @@ function TheTeam() {
             Norkys Gonzalez - Full Stack Developer | Backend Python y Flask
           </p>
           <div className="flex justify-center">
-            <FaGithubSquare size={30} />
-            <FaLinkedin size={30} />
+          <Link
+              to={REACT_APP_LINKEDIN_NORKYS_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} />
+            </Link>
+            <Link
+              to={REACT_APP_GITHUB_NORKYS_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare size={30} />
+            </Link>
           </div>
         </div>
         <div>
@@ -86,8 +135,20 @@ function TheTeam() {
             Franco Andres Diaz - Frontend developer | UX & UI Designer
           </p>
           <div className="flex justify-center">
-            <FaGithubSquare size={30} />
-            <FaLinkedin size={30} />
+          <Link
+              to={REACT_APP_LINKEDIN_FRANCO_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} />
+            </Link>
+            <Link
+              to={REACT_APP_GITHUB_FRANCO_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare size={30} />
+            </Link>
           </div>
         </div>
         <div>
@@ -96,8 +157,20 @@ function TheTeam() {
             Alexander Milano - Software Architect
           </p>
           <div className="flex justify-center">
-            <FaGithubSquare size={30} />
-            <FaLinkedin size={30} />
+          <Link
+              to={REACT_APP_LINKEDIN_ALEX_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} />
+            </Link>
+            <Link
+              to={REACT_APP_GITHUB_ALEX_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare size={30} />
+            </Link>
           </div>
         </div>
       </div>
