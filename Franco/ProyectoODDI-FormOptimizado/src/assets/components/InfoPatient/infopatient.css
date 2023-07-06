@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font-Montserrat: "montserrat", sans-serif;
+    /* Recordar Montserrat Weigth de 300 Apoyo y 700 Principal */
+    --font-Mortise: "Mortise", sans-serif;
+    /* Recordar Mortise Weigth de 200 para secundarios  */
+    --Palatine-Blue: #5129E0;
+    --Federal-Blue: #250E62;
+    --White-Smoke: #F2F2F2;
+    --Night-: #0D0E0F
+}
+.infoContainer {
+    width: 100vw;
+    padding: 50px;
+}
