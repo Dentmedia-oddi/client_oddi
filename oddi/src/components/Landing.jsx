@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 // import { useTypingEffect } from "../hooks/typingEffect";
 import { useTypingText } from "../hooks/useTypingText";
 
@@ -7,6 +7,9 @@ function Landing() {
   //   "Plantillas estructuradas para agilizar, personalizar, optimizar y compartir, tus entradas medicas.",
   //   100
   // );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const { word } = useTypingText(
     ["Agiliza", "Personaliza", "Optimiza", "Comparte"],

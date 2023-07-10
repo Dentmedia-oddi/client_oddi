@@ -3,14 +3,14 @@ import aboutpic from "../assets/Deadline-pana.png";
 
 function AboutOddi() {
   return (
-    <div className="w-full bg-white py-20 px-4">
+    <div name="about" className="w-full bg-white py-20 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img
           className="w-[500px] mx-auto my-4 "
           src={aboutpic}
           alt="Picabout"
         />
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center text-justify">
           <p className="text-[#0076A5] font-bold">ACERCA DE ODDI</p>
           <br />
           <p>

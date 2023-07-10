@@ -5,7 +5,7 @@ function WhyOddi() {
   return (
     <div className="w-full bg-white py-9 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center text-justify">
           <p className="text-[#0076A5] font-bold">¿POR QUÉ ODDI?</p>
           <br />
 
@@ -26,7 +26,7 @@ function WhyOddi() {
              
           </p>
           <br /> 
-          <p className="text-[#0076A5] font-regular">
+          <p className="text-[#0076A5] font-regular text-right">
           Ma. Julia Fernández - DDS
           </p>
         </div>
