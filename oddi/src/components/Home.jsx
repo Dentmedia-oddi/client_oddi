@@ -3,6 +3,8 @@ import Landing from './Landing'
 import AboutOddi from './AboutOddi'
 import WhyOddi from './WhyOddi'
 import InterestForm from './InterestForm'
+import Footer from './Footer'
+
 
 function Home() {
   return (
@@ -11,6 +13,7 @@ function Home() {
         <AboutOddi/>
         <WhyOddi/>
         <InterestForm/>
+        <Footer/>
     </div>
   )
 }
