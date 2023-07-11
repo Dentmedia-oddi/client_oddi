@@ -4,6 +4,7 @@ import AboutOddi from './AboutOddi'
 import WhyOddi from './WhyOddi'
 import InterestForm from './InterestForm'
 import Footer from './Footer'
+import Contributors from './Contributors'
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
         <AboutOddi/>
         <WhyOddi/>
         <InterestForm/>
+        <Contributors/>
         <Footer/>
     </div>
   )
