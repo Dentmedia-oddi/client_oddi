@@ -43,6 +43,12 @@ function InterestForm() {
                 placeholder="Tu correo electrónico"
                 name='email'
               />
+              <input
+                className="p-3 my-2 w-[400px] flex  rounded-md text-black"
+                type="text"
+                placeholder="Tu especialidad"
+                name='subject'
+              />
               <textarea
                 className="p-3 my-2 w-[400px] flex  rounded-md text-black"
                 type="message"
