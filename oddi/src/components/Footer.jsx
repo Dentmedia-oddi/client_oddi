@@ -1,6 +1,6 @@
 import React from "react";
 //import { Link } from "react-router-dom";
-import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
@@ -11,8 +11,13 @@ function Footer() {
         <img src={Logo} alt="Logo" style={{ width: "60px" }} />
         <p className="py-4">Odontología dígital guiada.</p>
         <div className="flex justify-between md:w-[25%] my-2">
-          <FaFacebookSquare size={30} />
-          <FaInstagramSquare size={30} />
+          <a
+            href="https://www.instagram.com/oddi.pro/?igshid=Y2I2MzMwZWM3ZA%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagramSquare size={30} />
+          </a>
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between md:w-[75%] mt-2">
