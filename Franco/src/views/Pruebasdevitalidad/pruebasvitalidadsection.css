@@ -13,29 +13,32 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-.bi {
-  font-size: 2rem;
+.pruebasVitalidadMainContainer {
+}
+.titleVitalidad{
   color: var(--White-Smoke);
-  cursor: pointer;
-}
-.btnIsSelected {
-  background-color: transparent;
-  border: none;
-}
-.titleIsSelected {
   font-family: var(--font-Montserrat);
-  color: var(--White-Smoke);
+  font-weight: 700;
   margin-bottom: 0px;
-  font-size: 1.5rem;
 }
-.buttonsVitalidadContainer {
+.titleVitalidadContainer {
   display: flex;
   gap: 10px;
   align-items: center;
-  margin-right: 30px;
+  
 }
-.btnsIsSelectedContainer {
+.notShow {
   display: flex;
-  gap: 10px;
-  align-items: center;
+  flex-wrap: wrap;
+  height: 0;
+  opacity: 0;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+.btnsVitalidadContainer{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  opacity: 1;
+  transition: height 0.3s ease-in-out, opacity 0.2s ease-in-out;
 }

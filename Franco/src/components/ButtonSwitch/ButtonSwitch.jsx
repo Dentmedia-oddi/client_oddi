@@ -6,8 +6,8 @@ export function ButtonSwitch(props) {
   const [isChecked, setIsChecked] = useState(props.switchState);
   const handleSwitch = (e) => {
     setIsChecked(e.target.checked);
+    props.toHandle(e.target.checked)
   };
-  console.log(isChecked);
   return (
     <div>
       <Form.Check

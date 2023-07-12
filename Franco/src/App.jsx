@@ -8,8 +8,7 @@ import { ButtonSwitch } from "./components/ButtonSwitch/ButtonSwitch";
 import { DropdownOptions } from "./components/Dropdown/Dropdown";
 import { AccordionConductos } from "./components/Accordion/Accordion";
 import { ButtonsVitalidad } from "./components/ButtonsVitalidad/ButtonsVitalidad";
-
-// Empezar a crear la carpeta views para empezar a desarrollar el form con los componentes
+import { PruebasVitalidadSection } from "./views/Pruebasdevitalidad/pruebasVitalidadSection";
 
 function App() {
   const [fractura, setFractura] = useState({});
@@ -31,6 +30,9 @@ function App() {
   }
   const handleBtnIsSelected = (id, value) => {
     console.log(id, value);
+  }
+  const handleVitalidadInfo = (vitalidadInfo) => {
+    console.log(vitalidadInfo);
   }
   return (
     <div className="appMainContainer">
@@ -65,9 +67,12 @@ function App() {
               key={opt.id} 
               value={opt.id} 
               name={opt.name} 
-              toHandle={handleBtnIsSelected}
+              // toHandle={handleBtnIsSelected}
               />
           ))}
+          <PruebasVitalidadSection
+            toHandle={handleVitalidadInfo}
+          />
     </div>
   );
 }
