@@ -9,6 +9,8 @@ import { DropdownOptions } from "./components/Dropdown/Dropdown";
 import { AccordionConductos } from "./components/Accordion/Accordion";
 import { ButtonsVitalidad } from "./components/ButtonsVitalidad/ButtonsVitalidad";
 
+// Empezar a crear la carpeta views para empezar a desarrollar el form con los componentes
+
 function App() {
   const [fractura, setFractura] = useState({});
   const [evaluacion, setEvaluacion] = useState({})
