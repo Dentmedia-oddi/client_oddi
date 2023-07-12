@@ -1,38 +1,53 @@
 [
     {
-        "name":"Vertical",
-        "id":"vertical",
-        "type": "fractura"
-    },
-    {
-        "name":"Horizontal",
-        "id":"horizontal",
-        "type": "fractura"
+        "title": "Fractura", 
+        "data": [
+            {
+                "name":"Vertical",
+                "id":"vertical",
+                "type": "fractura"
+            },
+            {
+                "name":"Horizontal",
+                "id":"horizontal",
+                "type": "fractura"
+            }
+        ]
     },
     {
         "name":"Caries",
         "id":"caries",
-        "type": "eva"
+        "type": "evaluacion"
     },
     {
         "name":"Trauma",
         "id":"trauma",
-        "type": "eva"
+        "type": "evaluacion"
     },
     {
         "name":"Absceso",
         "id":"absceso",
-        "type": "eva"
+        "type": "evaluacion"
     },
     {
         "name":"Discromia",
         "id":"discromia",
-        "type": "eva"
+        "type": "evaluacion"
     },
     {
         "name":"Fistula",
         "id":"fistula",
-        "type": "eva"
+        "type": "evaluacion"
+    },
+    {
+        "name":"Fisura",
+        "id":"fisura",
+        "type": "evaluacion"
+    },
+    {
+        "name":"Por razon prostetica",
+        "id":"porrazonprostetica",
+        "type": "evaluacion"
     },
     {
         "name":"Interna",
@@ -161,26 +176,32 @@
     },
     {
         "name": "Frio",
-        "id": "frio+",
-        "id1": "frio-",
+        "id": "frio",
         "type": "pruebasVitalidad"
     },
     {
         "name": "Calor",
-        "id": "calor+",
-        "id1": "calor-",
+        "id": "calor",
         "type": "pruebasVitalidad"
     },
     {
-        "name": "Palpitacion",
-        "id": "palpitacion+",
-        "id1": "palpitacion-",
+        "name": "Palpacion",
+        "id": "palpacion",
         "type": "pruebasVitalidad"
     },
     {
         "name": "Presion",
-        "id": "presion+",
-        "id1": "presion-",
+        "id": "presion",
+        "type": "pruebasVitalidad"
+    },
+    {
+        "name": "Percusion V",
+        "id": "presionv",
+        "type": "pruebasVitalidad"
+    },
+    {
+        "name": "Percusion H",
+        "id": "presionh",
         "type": "pruebasVitalidad"
     }
 ]

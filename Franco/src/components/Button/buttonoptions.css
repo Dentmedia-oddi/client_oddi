@@ -13,6 +13,24 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-:root {
-  background-color: var(--Federal-Blue);
+
+.btnOptionsContainer {
+  border-radius: 50px;
+  padding: 0 20px;
+  font-family: var(--font-Montserrat);
+  font-size: 1.2rem;
+
+}
+
+.btnSelected {
+  border: none;
+  background-color: var(--Palatine-Blue);
+  color: var(--White-Smoke);
+  
+}
+
+.btnNotSelect {
+  border: none;
+  background-color: var(--White-Smoke);
+  color: var(--Night-);
 }

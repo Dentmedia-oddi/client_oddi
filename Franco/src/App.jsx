@@ -1,62 +1,73 @@
-import './App.css'
-import { useState } from 'react';
-import imgOddi from '../src/assets/img/white iso 3.png'
-import clipboardCopy from 'clipboard-copy';
-import { TextToCopy } from './assets/Helpers/Texttocopy'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Form from 'react-bootstrap/Form';
+import { useState } from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import { InfoPatient } from './assets/components/InfoPatient/InfoPatient.jsx';
-import { PatientEva } from './assets/components/PatientEvaluation/PatientEva.jsx';
-import { PainSection } from './assets/components/PainSection/PainSection.jsx';
-import { VitalityTest } from './assets/components/VitalityTest/VitalityTest.jsx';
-import { Studies } from './assets/components/Studies/Studies.jsx';
-
-
+import dataOptions from "./dataBtn.json";
+import { Buttonoptions } from "./components/Button/Buttonoptions";
+import { ButtonSwitch } from "./components/ButtonSwitch/ButtonSwitch";
+import { DropdownOptions } from "./components/Dropdown/Dropdown";
+import { AccordionConductos } from "./components/Accordion/Accordion";
+import { ButtonsVitalidad } from "./components/ButtonsVitalidad/ButtonsVitalidad";
 
 function App() {
+  const [fractura, setFractura] = useState({});
+  const [evaluacion, setEvaluacion] = useState({})
 
-    const [infoPatientToShow, setInfoPatientToShow] = useState("");
-    const [btnsEva, setBtnEva] = useState("");
-    const [btnsPain, setBtnPain] = useState("");
-    
+  const handleFracturaOptions = (selectedOption) => {
+    setFractura({fractura: selectedOption});
+  };
 
-
-    
-    const handleInfoPatient = (infoPatient) => {
-        setInfoPatientToShow(infoPatient)
-    }
-
-    const handleBtnEva = (btnClicked) => {
-        setBtnEva(btnClicked)
-    }
-    const handleBtnPain = (btnClicked) => {
-        setBtnPain(btnClicked)
-    }
-    const handleSubmit  = (e) => {
-        e.preventDefault();
-        console.log(btnsEva, infoPatientToShow, btnsPain);
-        clipboardCopy(TextToCopy(btnsEva, infoPatientToShow, btnsPain))
-    }
-    return (
-    <>
-        <img src={imgOddi} alt="" />
-        <form>
-            <InfoPatient 
-                toHandle={handleInfoPatient}
-            />
-            <PatientEva
-                toHandleBtnEva={handleBtnEva}
-            />
-            <PainSection
-                toHandleBtnPain={handleBtnPain}
-            />
-            <Studies/>
-            <VitalityTest/>
-            <button className='btnSaveAndCopy' type='submit' onClick={handleSubmit}>Guardar y copiar</button>
-        </form>
-    </>
-    );
+  const handleBtnEvaluacion = (value, btnIsSelect) => {
+    setEvaluacion((prevEvaluacion) => ({
+      ...prevEvaluacion,
+      [value]: btnIsSelect
+    }));
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(fractura, evaluacion);
+  }
+  const handleBtnIsSelected = (id, value) => {
+    console.log(id, value);
+  }
+  return (
+    <div className="appMainContainer">
+      <ButtonSwitch
+        switchState={false}
+      />
+      <form action="" onSubmit={handleSubmit}>
+        <DropdownOptions
+          labelDropdown={
+            dataOptions.find((item) => item.title === "Fractura").title
+          }
+          data={dataOptions.find((item) => item.title === "Fractura").data}
+          tohandle={handleFracturaOptions}
+        />
+        {dataOptions
+          .filter((option) => option.type === "evaluacion")
+          .map((opt) => (
+            <Buttonoptions 
+              key={opt.id} 
+              value={opt.id} 
+              option={opt.name} 
+              toHandle={handleBtnEvaluacion}
+              />
+          ))}
+        <button type="submit">Enviar y guardar</button>
+      </form>
+      <AccordionConductos/>
+      {dataOptions
+          .filter((option) => option.type === "pruebasVitalidad")
+          .map((opt) => (
+            <ButtonsVitalidad 
+              key={opt.id} 
+              value={opt.id} 
+              name={opt.name} 
+              toHandle={handleBtnIsSelected}
+              />
+          ))}
+    </div>
+  );
 }
 
 export default App;

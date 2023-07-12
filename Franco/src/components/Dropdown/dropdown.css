@@ -13,6 +13,8 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-:root {
-  background-color: var(--Federal-Blue);
+.css-b62m3t-container {
+  width: 200px;
+  font-family: var(--font-Montserrat);
+  font-weight: 300;
 }
