@@ -35,33 +35,32 @@ function InterestForm() {
                 className="p-3 my-2 w-[400px] flex  rounded-md text-black"
                 type="text"
                 placeholder="Indicanos tu nombre y apellido"
-                name='name'
+                name="name"
               />
               <input
                 className="p-3 my-2 w-[400px] flex  rounded-md text-black"
                 type="email"
                 placeholder="Tu correo electrónico"
-                name='email'
+                name="email"
               />
               <input
                 className="p-3 my-2 w-[400px] flex  rounded-md text-black"
                 type="text"
                 placeholder="Tu especialidad"
-                name='subject'
+                name="subject"
               />
               <textarea
                 className="p-3 my-2 w-[400px] flex  rounded-md text-black"
                 type="message"
                 rows="10"
                 placeholder="Ingresa tu mensaje"
-                name='message'
+                name="message"
               />
               <button className="bg-[#1DCAD3] w-[100px] rounded-md font-medium ml-auto my-6 px-6 py-3 text-[#250E62]">
                 Enviar
               </button>
             </form>
           </div>
-          {/* <p>Nos preocupamos por la seguridad de tú información personal.  Por aquí nuestra <span className="text-[#1DCAD3]">Política de privacidad</span>.</p> */}
         </div>
       </div>
     </div>
