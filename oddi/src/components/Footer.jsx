@@ -1,5 +1,4 @@
 import React from "react";
-//import { Link } from "react-router-dom";
 import { FaInstagramSquare } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
@@ -21,19 +20,9 @@ function Footer() {
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between md:w-[75%] mt-2">
-        {/* <div>
-          <h6 className="font-medium text-[#0076A5]">Soporte</h6>
-          <ul>
-            <li className="py-2 text-sm">Documentación</li>
-            <li className="py-2 text-sm">Guías</li>
-            <li className="py-2 text-sm">Status del servicio</li>
-          </ul>
-        </div> */}
         <div>
           <h6 className="font-medium text-[#0076A5]">ODDI</h6>
           <ul>
-            {/* <li className="py-2 text-sm">Blog de noticias</li> */}
-
             <Link to="about" smooth={true} duration={500}>
               Sobre ODDI
             </Link>

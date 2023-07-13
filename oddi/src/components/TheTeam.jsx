@@ -7,19 +7,6 @@ import alex from "../assets/alex.jpg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-// const {
-//   REACT_APP_LINKEDIN_MJ_PROFILE,
-//   REACT_APP_GITHUB_MJ_PROFILE,
-//   REACT_APP_LINKEDIN_GABY_PROFILE,
-//   REACT_APP_GITHUB_GABY_PROFILE,
-//   REACT_APP_LINKEDIN_NORKYS_PROFILE,
-//   REACT_APP_GITHUB_NORKYS_PROFILE,
-//   REACT_APP_LINKEDIN_FRANCO_PROFILE,
-//   REACT_APP_GITHUB_FRANCO_PROFILE,
-//   REACT_APP_LINKEDIN_ALEX_PROFILE,
-//   REACT_APP_GITHUB_ALEX_PROFILE,
-// } = process.env;
-
 function TheTeam() {
   useEffect(() => {
     window.scrollTo(0, 0);

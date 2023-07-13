@@ -1,5 +1,5 @@
 import React from "react";
-import MjPhoto from "../assets/mjPhotoColor.jpg"
+import MjPhoto from "../assets/mjPhotoColor.jpg";
 
 function WhyOddi() {
   return (
@@ -15,19 +15,19 @@ function WhyOddi() {
             dedicado a desarrollar soluciones que optimicen nuestros procesos
             con la historia clínica dental, permitiéndonos brindar una atención
             de calidad sin comprometer la información del diagnóstico o
-            tratamiento. <br /> Me inspira la idea de un futuro donde las anotaciones
-            sean generadas de manera sencilla y efectiva haciendo que los datos
-            clínicos se transformen en cuestión de segundos. <br /> Visualizo una
-            práctica dental unificada con los registros de salud del paciente
-            donde los diagnósticos se reflejan de forma concluyente, brindando a
-            nuestros pacientes la tranquilidad de recibir un tratamiento
-            adecuado y transparente. <br /> ¡Es hora de marcar la diferencia y
-            construir un futuro dental más eficiente, preciso y extraordinario!
-             
+            tratamiento. <br /> Me inspira la idea de un futuro donde las
+            anotaciones sean generadas de manera sencilla y efectiva haciendo
+            que los datos clínicos se transformen en cuestión de segundos.{" "}
+            <br /> Visualizo una práctica dental unificada con los registros de
+            salud del paciente donde los diagnósticos se reflejan de forma
+            concluyente, brindando a nuestros pacientes la tranquilidad de
+            recibir un tratamiento adecuado y transparente. <br /> ¡Es hora de
+            marcar la diferencia y construir un futuro dental más eficiente,
+            preciso y extraordinario!
           </p>
-          <br /> 
+          <br />
           <p className="text-[#0076A5] font-regular text-right">
-          Ma. Julia Fernández - DDS
+            Ma. Julia Fernández - DDS
           </p>
         </div>
         <img
