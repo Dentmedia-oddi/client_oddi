@@ -41,6 +41,10 @@ function Footer() {
             <a href="/equipo">
               <li className="py-2 text-sm">Nuestro equipo</li>
             </a>
+
+            <a href="https://blog.oddi.es/">
+              <li className="py-2 text-sm">Blog</li>
+            </a>
           </ul>
         </div>
         <div>
