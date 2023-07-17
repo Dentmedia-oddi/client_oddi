@@ -1,12 +1,14 @@
 import React from "react";
 import compluemprende from "../assets/logo-compluemprende-2-.jpg";
 import dentmedia from "../assets/dentmedia.jpg";
+import aeclinica from "../assets/aeclinicadental.png"
+
 
 function Contributors() {
   return (
-    <div name="about" className="w-full bg-white py-12 px-4">
-      <h3 className="text-[#0076A5] font-bold">COLABORADORES</h3>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+    <div name="about" className="w-full bg-white py-12 px-2">
+      <h3 className="text-[#0076A5] font-bold max-w-[1240px] mx-auto">COLABORADORES</h3>
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3">
         <div className="flex  justify-center">
           <a
             href="https://www.ucm.es/compluemprende"
@@ -31,6 +33,20 @@ function Contributors() {
               src={dentmedia}
               alt="dentmedialogo"
               style={{ width: "250px" }}
+              className="py-6"
+            />
+          </a>
+        </div>
+        <div className="flex  justify-center">
+          <a
+            href="https://www.aeclinicadental.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={aeclinica}
+              alt="dentmedialogo"
+              style={{ width: "130px" }}
               className="py-6"
             />
           </a>
