@@ -12,7 +12,9 @@ function Home() {
       <Landing />
       <AboutOddi />
       <WhyOddi />
+      <div id="interest-form">
       <InterestForm />
+      </div>
       <Contributors />
       <Footer />
     </div>
