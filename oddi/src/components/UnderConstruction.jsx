@@ -10,29 +10,21 @@ function UnderConstruction() {
       <div name="about" className="w-full bg-white py-20 px-4">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
           <img className="w-[450px] mx-auto" src={under} alt="Picunder" />
-          <div className="flex flex-col justify-center text-justify">
+          <div className="flex flex-col justify-center">
             <p className="text-[#0076A5] font-bold text-center">
               ¡PLANTILLA EN CONSTRUCCIÓN!
             </p>
             <br />
-            <p>
-              Gracias por tu interés. Estamos trabajando arduamente en la
-              creación de nuestra plantilla, por el momento iniciaremos con un
-              modelo para endodoncistas. <br /> Sabemos lo importante que es
-              para ti tener acceso al demo. Por ello, te invitamos a que nos contactes a
-              través de nuestro{" "}
+            <p className="text-center">
+            Pronto podrás disfrutar de las plantillas para especialidades odontológicas. Deja {" "}
               <a
                 href="/#interest-form"
                 onClick={() => navigate("/#interest-form")}
-                className="text-[#0076A5] underline"
+                className="text-[#0076A5] font-bold underline"
               >
-                formulario de contacto
+                aquí tu email 
               </a>
-              . De esta manera, podremos mantenerte informado(a) y notificarte
-              tan pronto como la plantilla esté lista para su uso. Agradecemos
-              tu paciencia y comprensión mientras finalizamos este proceso. No
-              dudes en ponerte en contacto con nosotros si tienes alguna
-              pregunta adicional o si necesitas información adicional.
+              {" "} y accede a la prueba gratuita.
             </p>
           </div>
         </div>
