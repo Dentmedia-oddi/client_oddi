@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../assets/logo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
+  const [isHomePage, setIsHomePage] = useState(true);
 
   const handleNav = () => {
     setNav(!nav);
@@ -14,32 +16,40 @@ function Navbar() {
     setNav(false);
   };
 
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsHomePage(location.pathname === "/");
+  }, [location]);
+
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <img src={Logo} alt="Logo" style={{ width: "100px" }} />
 
-      <ul className="hidden md:flex">
-        <li className="p-4">
-          <Link
-            to="about"
-            smooth={true}
-            duration={500}
-            onClick={handleCloseNav}
-          >
-            Sobre ODDI
-          </Link>
-        </li>
-        <li className="p-4">
-          <a
-            href="http://form.oddi.es/"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={handleCloseNav}
-          >
-            Prueba
-          </a>
-        </li>
-      </ul>
+      {isHomePage && (
+        <ul className="hidden md:flex">
+          <li className="p-4">
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              onClick={handleCloseNav}
+            >
+              Sobre ODDI
+            </Link>
+          </li>
+          <li className="p-4">
+            <a
+              href="http://form.oddi.es/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleCloseNav}
+            >
+              Prueba
+            </a>
+          </li>
+        </ul>
+      )}
 
       {/* mobile component */}
       <div onClick={handleNav} className="block md:hidden">
