@@ -40,22 +40,20 @@ function Navbar() {
           </li>
           <li className="p-4">
             <a
-              href="http://form.oddi.es/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/construccion"
               onClick={handleCloseNav}
             >
-              Prueba
+              Solicitar demo
             </a>
           </li>
         </ul>
       )}
 
       {/* mobile component */}
+      {isHomePage && (
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-      </div>
-
+      </div>)}
       <div
         className={
           !nav
@@ -77,12 +75,10 @@ function Navbar() {
           </li>
           <li className="p-4">
             <a
-              href="http://form.oddi.es/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/construccion"
               onClick={handleCloseNav}
             >
-              Prueba
+              Solicitar demo
             </a>
           </li>
         </ul>
