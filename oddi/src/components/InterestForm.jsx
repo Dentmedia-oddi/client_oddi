@@ -16,14 +16,14 @@ function InterestForm() {
     <div className="w-full py-16 text-white px-4">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 my-4">
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold pb-4">
-            ¿Quieres saber más?
+          <h1 className="md:text-2xl sm:text-xl text-xl font-bold pb-4">
+            ¿QUIERES SABER MAS?
           </h1>
           <p>
             Escribenos y con gusto aclararemos cualquier inquietud que tengas.
           </p>
         </div>
-        <div className="my-4">
+        <div className="my-2">
           <div className="flex flex-col sm:flex-row mx-auto items-center justify-between w-full">
             <form
               ref={formRef}
@@ -32,25 +32,25 @@ function InterestForm() {
               onSubmit={handleSubmit}
             >
               <input
-                className="p-3 my-2 w-[400px] flex  rounded-md text-black"
+                className="p-3 my-2 w-[320px] flex  rounded-md text-black"
                 type="text"
                 placeholder="Indicanos tu nombre y apellido"
                 name="name"
               />
               <input
-                className="p-3 my-2 w-[400px] flex  rounded-md text-black"
+                className="p-3 my-2 w-[320px] flex  rounded-md text-black"
                 type="email"
                 placeholder="Tu correo electrónico"
                 name="email"
               />
               <input
-                className="p-3 my-2 w-[400px] flex  rounded-md text-black"
+                className="p-3 my-2 w-[320px] flex  rounded-md text-black"
                 type="text"
                 placeholder="Tu especialidad"
                 name="subject"
               />
               <textarea
-                className="p-3 my-2 w-[400px] flex  rounded-md text-black"
+                className="p-3 my-2 w-[320px] flex  rounded-md text-black"
                 type="message"
                 rows="10"
                 placeholder="Ingresa tu mensaje"
