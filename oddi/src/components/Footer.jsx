@@ -21,7 +21,7 @@ function Footer() {
       </div>
       <div className="lg:col-span-2 flex justify-between md:w-[75%]">
         <div>
-          <h6 className="px-2 font-medium text-[#0076A5]">ODDI</h6>
+          <h6 className="px-2 font-bold text-[#0076A5]">ODDI</h6>
           <ul>
             <Link to="about" smooth={true} duration={500} >
             <li className="py-2 px-2 text-sm">Sobre ODDI</li>
@@ -37,7 +37,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className=" px-2 font-medium text-[#0076A5]">Legal</h6>
+          <h6 className=" px-2 font-bold text-[#0076A5]">LEGAL</h6>
           <ul>
             <li className="py-2 px-2 text-sm">Políticas de uso</li>
             <li className="py-2 px-2 text-sm">Políticas de privacidad</li>

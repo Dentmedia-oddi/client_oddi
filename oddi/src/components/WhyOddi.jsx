@@ -6,7 +6,7 @@ function WhyOddi() {
     <div className="w-full bg-white py-9 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <div className="flex flex-col justify-center text-justify">
-          <p className="text-[#0076A5] font-bold">¿POR QUÉ ODDI?</p>
+          <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">¿POR QUÉ ODDI?</p>
           <br />
 
           <p>

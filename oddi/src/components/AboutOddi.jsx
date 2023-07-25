@@ -10,8 +10,8 @@ function AboutOddi() {
           src={aboutpic}
           alt="Picabout"
         />
-        <div className="flex flex-col justify-center text-justify">
-          <p className="text-[#0076A5] font-bold">ACERCA DE ODDI</p>
+        <div className="flex flex-col justify-center text-justify ">
+          <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">ACERCA DE ODDI</p>
           <br />
           <p>
             Consta de un servicio web de ventana flotante para entrada y
