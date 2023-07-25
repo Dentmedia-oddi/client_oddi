@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import mj from "../assets/mj.jpg";
 import gaby from "../assets/gaby.jpg";
-import norkys from "../assets/nor.jpg";
 import franco from "../assets/franco.jpg";
 import alex from "../assets/alex.jpg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
