@@ -23,9 +23,15 @@ function Footer() {
         <div>
           <h6 className="px-2 font-bold text-[#0076A5]">ODDI</h6>
           <ul>
+            <a href="/">
             <Link to="about" smooth={true} duration={500} >
             <li className="py-2 px-2 text-sm">Sobre ODDI</li>
             </Link>
+            </a>
+
+            <a href="/construccion">
+              <li className="py-2 px-2 text-sm">Solicitar demo</li>
+            </a>
 
             <a href="/equipo">
               <li className="py-2 px-2 text-sm">Nuestro equipo</li>
