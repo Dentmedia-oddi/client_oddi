@@ -7,7 +7,7 @@ import aeclinica from "../assets/aeclinicadental.png"
 function Contributors() {
   return (
     <div name="about" className="w-full bg-white py-12 px-2">
-      <h3 className="text-[#0076A5] font-bold max-w-[1240px] mx-auto">COLABORADORES</h3>
+      <h3 className="text-[#0076A5] font-bold max-w-[1240px] mx-auto md:text-2xl sm:text-xl text-xl">COLABORADORES</h3>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3">
         <div className="flex  justify-center">
           <a
