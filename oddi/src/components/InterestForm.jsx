@@ -56,7 +56,7 @@ function InterestForm() {
                 placeholder="Ingresa tu mensaje"
                 name="message"
               />
-              <button className="bg-white w-[100px] rounded-md font-medium ml-auto my-4 px-6 text-[#250E62]  group border-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3]">
+              <button className="bg-[#250E62] w-[100px] rounded-md font-medium ml-auto my-4 px-6 text-white  group border-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3] hover:text-[#250E62]">
                 Enviar
               </button>
             </form>
