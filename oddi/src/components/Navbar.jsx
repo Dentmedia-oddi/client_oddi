@@ -28,7 +28,7 @@ function Navbar() {
 
       {isHomePage && (
         <ul className="hidden md:flex">
-          <li className="p-4">
+          {/* <li className="p-4">
             <Link
               to="about"
               smooth={true}
@@ -37,13 +37,14 @@ function Navbar() {
             >
               Sobre ODDI
             </Link>
-          </li>
+          </li> */}
           <li className="p-4">
             <a
               href="/construccion"
               onClick={handleCloseNav}
+              
             >
-              Solicitar demo
+              SOLICITAR DEMO
             </a>
           </li>
         </ul>
@@ -70,7 +71,7 @@ function Navbar() {
               duration={500}
               onClick={handleCloseNav}
             >
-              Sobre ODDI
+              SOBRE ODDI
             </Link>
           </li>
           <li className="p-4">
@@ -78,7 +79,7 @@ function Navbar() {
               href="/construccion"
               onClick={handleCloseNav}
             >
-              Solicitar demo
+              SOLICITAR DEMO
             </a>
           </li>
         </ul>
