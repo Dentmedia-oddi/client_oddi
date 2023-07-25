@@ -1,6 +1,7 @@
 import React from "react";
 import under from "../assets/Underconstruction.png";
 import { useNavigate } from "react-router-dom";
+import {Link} from "react-router-dom"
 
 function UnderConstruction() {
   const navigate = useNavigate();
@@ -27,7 +28,13 @@ function UnderConstruction() {
               {" "}tu email y accede a la prueba gratuita.
             </p>
           </div>
+          
         </div>
+        <Link to="/" className="flex justify-end items-center pt-10 px-2">
+        <button className="bg-white w-[100px] rounded-md font-medium ml-auto my-4 px-6 text-[#250E62]  group border-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3]">
+          Volver
+        </button>
+      </Link>
       </div>
     </div>
   );
