@@ -37,7 +37,7 @@ function Landing() {
           duration={500}
           className="flex justify-end items-center pt-32 px-2"
         >
-          <button className="text-white group border-2 px-3 py-3 my-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3]">
+          <button className="bg-white rounded-md font-medium my-6 px-4 py-3 text-[#250E62]  group border-1 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3]">
             <span className="group-hover:rotate-90 duration-500">
               <HiArrowNarrowRight className="ml-3" />
             </span>
