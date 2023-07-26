@@ -35,9 +35,10 @@ function Landing() {
           to="about"
           smooth={true}
           duration={500}
-          className="flex justify-end items-center pt-32 px-2"
+          className="flex justify-center items-center pt-28 px-2"
         >
-          <button className="bg-[#250E62] border-white rounded-md font-medium my-6 px-4 py-3 text-white  group border-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3] hover:text-[#250E62]">
+          <button className="bg-[#250E62] border-white rounded-md my-6 px-4 py-3 text-white  group border-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3] hover:text-[#250E62]">
+          Más
             <span className="group-hover:rotate-90 duration-500">
               <HiArrowNarrowRight className="ml-3" />
             </span>

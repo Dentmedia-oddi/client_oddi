@@ -13,7 +13,7 @@ function InterestForm() {
   };
 
   return (
-    <div className="w-full py-16 text-white px-4">
+    <div name="form" className="w-full py-16 text-white px-4">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 my-4">
           <h1 className="md:text-2xl sm:text-xl text-xl font-bold pb-4">
