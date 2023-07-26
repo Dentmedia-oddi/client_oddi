@@ -14,8 +14,8 @@ function Landing() {
     5
   );
   return (
-    <div className="text-white pt-24">
-      <div className="max-w-[800px] mt-[-80px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
+    <div className="text-white py-32">
+      <div className="max-w-[500px] mt-[-80px] w-full  mx-auto text-center flex flex-col justify-center ">
         <h1 className="md:text-7xl sm:text-6xl text-3xl  md:py-2 font-bold ">
           ODDI
         </h1>
@@ -35,10 +35,10 @@ function Landing() {
           to="about"
           smooth={true}
           duration={500}
-          className="flex justify-center items-center pt-28 px-2"
+          className="flex justify-center items-center pt-26 px-2"
         >
           <button className="bg-[#250E62] border-white rounded-md my-6 px-4 py-3 text-white  group border-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3] hover:text-[#250E62]">
-          Más
+            Saber más
             <span className="group-hover:rotate-90 duration-500">
               <HiArrowNarrowRight className="ml-3" />
             </span>
