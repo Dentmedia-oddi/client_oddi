@@ -5,6 +5,7 @@ import WhyOddi from "./WhyOddi";
 import InterestForm from "./InterestForm";
 import Footer from "./Footer";
 import Contributors from "./Contributors";
+import Future from "./Future";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Landing />
       <AboutOddi />
       <WhyOddi />
+      <Future/>
       <div id="interest-form">
       <InterestForm />
       </div>

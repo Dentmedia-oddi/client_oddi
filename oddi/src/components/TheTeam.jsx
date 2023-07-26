@@ -14,28 +14,31 @@ function TheTeam() {
     <div className="w-full bg-white py-9 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
         <div className="flex flex-col justify-center text-justify">
-          <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">NUESTRO EQUIPO</p>
-          <br />
-          <p className="text-[#0076A5] font-bold">
-            Simplificar los registros y transformar la atención dental.
+          <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
+            NUESTRO EQUIPO
           </p>
-
+          <br />
+          <p className="text-[#0076A5] font-regular">
+            Manifiesto: Simplificar los registros y transformar la atención
+            dental
+            
+          </p>
+          <br/>
           <p>
             Sabemos que la eficiencia, precisión y calidad son fundamentales
             para brindar una atención excepcional a nuestros pacientes. En el
             campo de la odontología, hemos visto avances en la optimización del
-            tiempo de trabajo en boca, pero ¿qué pasa con el tedioso proceso de
-            registrar y documentar los tratamientos en la historia clínica?{" "}
-            <br /><br /> En ODDI, nuestro objetivo es simplificar los registros y
-            revolucionar la forma en que los especialistas dentales documentan
-            su trabajo, liderando el desarrollo de soluciones que optimicen los
-            flujos y maximicen la eficiencia en la atención dental. Estamos
-            comprometidos en brindar a los profesionales las herramientas
-            necesarias para que alcancen su máximo potencial y ofrezcan una
-            atención de calidad. <br /><br />
-            Queremos liberar a los especialistas dentales de la carga del
-            trabajo administrativo y permitirles enfocarse en lo que mejor saben
-            hacer: brindar una atención excepcional a sus pacientes.
+            tiempo de trabajo en boca, pero ¿Qué pasa con el tedioso proceso de
+            registrar y documentar los tratamientos en la historia clínica?<br/><br/> En
+            ODDI, nuestro objetivo es simplificar los registros y revolucionar
+            la forma en que los especialistas dentales documentan su trabajo,
+            liderando el desarrollo de soluciones que optimicen los flujos y
+            maximicen la eficiencia en la atención dental. Estamos comprometidos
+            en brindar a los profesionales las herramientas necesarias para que
+            alcancen su máximo potencial y ofrezcan una atención de calidad. <br/><br/>
+            Queremos liberar a los dentistas de la carga del trabajo
+            administrativo y permitirles enfocarse en lo que mejor saben hacer:
+            brindar una atención excepcional a sus pacientes.
           </p>
           <br />
           <p className="text-[#0076A5] font-bold italic text-right">
@@ -97,7 +100,6 @@ function TheTeam() {
           </div>
         </div>
 
-        
         <div>
           <img
             className="w-[150px] mx-auto my-4"
