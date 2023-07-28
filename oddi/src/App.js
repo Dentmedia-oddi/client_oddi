@@ -23,7 +23,7 @@ function App() {
         //"Accept button"
         buttonText="Acepto"
         cookieName="myCookieConsent"
-        style={{ background: "#FFFFFF", fontSize: "13px", color: "#000000" }}
+        style={{ background: "#EEEDED", fontSize: "13px", color: "#000000" }}
         buttonStyle={{
           color: "#FFFFFF",
           fontSize: "14px",
