@@ -7,7 +7,12 @@ function Footer() {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-2 grid lg:grid-cols-3 gap-8 text-white justify-center">
       <div>
-        <img src={Logo} alt="Logo" style={{ width: "120px" }} className="py-2" />
+        <img
+          src={Logo}
+          alt="Logo"
+          style={{ width: "120px" }}
+          className="py-2"
+        />
         <p className="py-2">Odontología dígital guiada.</p>
         <div className="flex justify-between md:w-[25%] my-2">
           <a
@@ -24,9 +29,9 @@ function Footer() {
           <h6 className="px-2 font-bold text-[#0076A5]">ODDI</h6>
           <ul>
             <a href="/">
-            <Link to="about" smooth={true} duration={500} >
-            <li className="py-2 px-2 text-sm">Sobre ODDI</li>
-            </Link>
+              <Link to="about" smooth={true} duration={500}>
+                <li className="py-2 px-2 text-sm">Sobre ODDI</li>
+              </Link>
             </a>
 
             <a href="/construccion">
@@ -45,8 +50,9 @@ function Footer() {
         <div>
           <h6 className=" px-2 font-bold text-[#0076A5]">LEGAL</h6>
           <ul>
-            <li className="py-2 px-2 text-sm">Políticas de uso</li>
-            <li className="py-2 px-2 text-sm">Políticas de privacidad</li>
+            <a href="/politicas">
+              <li className="py-2 px-2 text-sm">Políticas</li>
+            </a>
           </ul>
         </div>
       </div>
