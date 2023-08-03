@@ -5,10 +5,10 @@ function DataProtectionPolicy({redirectToCookies}) {
   return (
     <div className="w-full bg-white py-9 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
-        <div className="flex flex-col justify-center text-justify">
           <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
             POLÍTICA DE PROTECCIÓN DE DATOS
           </p>
+        <div className="flex flex-col justify-center text-justify">
           <br />
           <p className="text-[#0076A5] font-regular">
             [ODDI]

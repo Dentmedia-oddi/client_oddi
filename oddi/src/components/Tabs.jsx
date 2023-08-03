@@ -20,12 +20,12 @@ const Tabs = ({ tabs }) => {
 
   return (
     <div>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         {tabs.map((tab) => (
           <button
             key={tab}
-            className={`px-4 py-2 rounded-t-lg ${
-              activeTab === tab ? ' text-white' : 'bg-[#0076A5]'
+            className={`px-4 py-2  ${
+              activeTab === tab ? ' text-[#1DCAD3] font-bold underline' : 'text-white'
             }`}
             onClick={() => setActiveTab(tab)}
           >
