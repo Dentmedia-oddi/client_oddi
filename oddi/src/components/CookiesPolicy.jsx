@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function CookiesPolicy() {
   return (
-    <div className="w-full bg-white py-9 px-4">
+    <div name="cookies" id="1" className="w-full bg-white py-9 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
         <div className="flex flex-col justify-center text-justify">
           <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
@@ -89,7 +89,7 @@ function CookiesPolicy() {
             Si tienes alguna pregunta o inquietud acerca de esta política de
             cookies, por favor contáctanos a través de{" "}
             <a href="mailto:info@oddi.es" className="text-[#0076A5]">
-              info@oddi.es
+              [info@oddi.es]
             </a>
             . <br />
             <br />

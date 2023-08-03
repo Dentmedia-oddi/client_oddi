@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function DataProtectionPolicy() {
+function DataProtectionPolicy({redirectToCookies}) {
   return (
     <div className="w-full bg-white py-9 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
@@ -41,8 +41,13 @@ function DataProtectionPolicy() {
             visitas, la frecuencia y duración de tus visitas, y tu
             comportamiento en el sitio. <br />
             <br />
-            Datos de cookies y tecnologías similares: Consulta nuestra [Política
-            de Cookies](enlace a la política de cookies) para obtener más
+            Datos de cookies y tecnologías similares: Consulta nuestra {" "}
+            <button
+               onClick={redirectToCookies}
+              className="text-[#0076A5] font-bold underline"
+            >
+              [Política de Cookies]
+            </button> {" "} para obtener más
             información sobre cómo utilizamos las cookies y tecnologías
             similares para recopilar datos personales. <br />
             <br />
@@ -145,7 +150,7 @@ function DataProtectionPolicy() {
             protección de datos personales o sobre cómo manejamos la información
             personal, por favor contáctanos a través de{" "}
             <a href="mailto:info@oddi.es" className="text-[#0076A5]">
-              info@oddi.es
+              [info@oddi.es]
             </a>
             . <br />
             <br />

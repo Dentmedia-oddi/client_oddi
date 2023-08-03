@@ -7,6 +7,8 @@ import TheTeam from "./components/TheTeam";
 import UnderConstruction from "./components/UnderConstruction";
 import CookieConsent from "react-cookie-consent";
 import Policies from "./components/Policies";
+import Disclaimer from "./components/Disclaimer";
+
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <Route path="/equipo" element={<TheTeam />} />
         <Route path="/construccion" element={<UnderConstruction />} />
         <Route path="/politicas" element={<Policies />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        
 
       </Routes>
       <Copyright />
