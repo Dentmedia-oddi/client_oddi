@@ -6,8 +6,11 @@ import Copyright from "./components/Copyright";
 import TheTeam from "./components/TheTeam";
 import UnderConstruction from "./components/UnderConstruction";
 import CookieConsent from "react-cookie-consent";
+import Policies from "./components/Policies";
+
 
 function App() {
+  
   return (
     <div>
       <Navbar />
@@ -15,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/equipo" element={<TheTeam />} />
         <Route path="/construccion" element={<UnderConstruction />} />
+        <Route path="/politicas" element={<Policies />} />
+
       </Routes>
       <Copyright />
 
