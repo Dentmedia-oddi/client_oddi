@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Tabs from "./Tabs";
 
 function Policies() {
   const tabs = ["Privacidad", "Cookies", "Protección de datos", "Protección datos formularios", "Responsabilidad de enlaces"];
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="max-w-[1240px] mx-auto">

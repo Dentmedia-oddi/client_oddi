@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Link } from "react-router-dom";
 
 
 function PrivacyPolicy({ redirectToCookies }) {
-  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="w-full bg-white py-9 px-4">
