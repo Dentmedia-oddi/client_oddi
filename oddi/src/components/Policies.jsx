@@ -2,7 +2,8 @@ import React from "react";
 import Tabs from "./Tabs";
 
 function Policies() {
-  const tabs = ["Política de privacidad", "Política de cookies", "Política de protección de datos"];
+  const tabs = ["Privacidad", "Cookies", "Protección de datos", "Protección datos formularios", "Responsabilidad de enlaces"];
+
 
   return (
     <div className="max-w-[1240px] mx-auto">

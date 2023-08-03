@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function PrivacyPolicy() {
+
+function PrivacyPolicy({ redirectToCookies }) {
+  
+
   return (
     <div className="w-full bg-white py-9 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
@@ -11,8 +14,9 @@ function PrivacyPolicy() {
           </p>
           <br />
           <p className="text-[#0076A5] font-regular">
-            [ODDI]<br/> Política de Privacidad <br/><br/> Fecha de última actualización:
-            [01/08/2023]
+            [ODDI]
+            <br /> Política de Privacidad <br />
+            <br /> Fecha de última actualización: [01/08/2023]
           </p>
           <br />
           <br />
@@ -47,11 +51,16 @@ function PrivacyPolicy() {
             <br /> 2.3 Uso de cookies y tecnologías similares
             <br />
             <br /> Utilizamos cookies y tecnologías similares para recopilar
-            información sobre tu actividad en nuestro sitio web. Puedes obtener
-            más información sobre el uso de cookies en nuestra{" "}
-            <Link to="politica_de_cookies" className="text-[#0076A5] underline">
-              Política de Cookies.
-            </Link>
+            información sobre tu actividad en nuestro sitio web.{" "}
+            <strong>
+              Puedes obtener más información sobre el uso de cookies en nuestra
+            </strong>{" "}
+            <button
+               onClick={redirectToCookies}
+              className="text-[#0076A5] font-bold underline"
+            >
+              [Política de Cookies]
+            </button>
             <br />
             <br /> Uso de la información <br /> Utilizamos la información
             recopilada para los siguientes propósitos: <br />
@@ -203,7 +212,7 @@ function PrivacyPolicy() {
             privacidad o sobre cómo manejamos la información personal, por favor
             contáctanos a través de{" "}
             <a href="mailto:info@oddi.es" className="text-[#0076A5]">
-              info@oddi.es
+              [info@oddi.es]
             </a>
             .
             <br />
