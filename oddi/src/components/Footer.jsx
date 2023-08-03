@@ -54,7 +54,7 @@ function Footer() {
               <li className="py-2 px-2 text-sm">Políticas</li>
             </a>
             <a href="/disclaimer">
-              <li className="py-2 px-2 text-sm">Aviso legal</li>
+              <li className="py-2 px-2 text-sm">Disclaimer</li>
             </a>
           </ul>
         </div>

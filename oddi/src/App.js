@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Copyright from "./components/Copyright";
@@ -9,10 +9,7 @@ import CookieConsent from "react-cookie-consent";
 import Policies from "./components/Policies";
 import Disclaimer from "./components/Disclaimer";
 
-
-
 function App() {
-  
   return (
     <div>
       <Navbar />
@@ -22,8 +19,6 @@ function App() {
         <Route path="/construccion" element={<UnderConstruction />} />
         <Route path="/politicas" element={<Policies />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
-        
-
       </Routes>
       <Copyright />
 
@@ -51,7 +46,11 @@ function App() {
         }}
       >
         Utilizamos cookies para mejorar la experiencia del usuario. Al hacer
-        clic en "Acepto", aceptas el uso de TODAS las cookies.{" "}
+        clic en "Acepto", aceptas el uso de TODAS las cookies. Si deseas obtener
+        más información sobre el uso de cookies y cómo puedes gestionarlas, por
+        favor visita nuestra política de cookies en la sección de{" "}
+        <Link to="/politicas" className="text-[#250E62] font-bold underline">políticas</Link> en 
+        nuestro sitio.{" "}
         <span style={{ fontSize: "10px", color: "#250E62" }}>ODDI</span>
       </CookieConsent>
     </div>
