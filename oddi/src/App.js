@@ -9,7 +9,7 @@ import CookieConsent from "react-cookie-consent";
 import Policies from "./components/Policies";
 import Disclaimer from "./components/Disclaimer";
 
-function App() {
+function App({redirectToCookies}) {
   return (
     <div>
       <Navbar />
@@ -48,8 +48,8 @@ function App() {
         Utilizamos cookies para mejorar la experiencia del usuario. Al hacer
         clic en "Acepto", aceptas el uso de TODAS las cookies. Si deseas obtener
         más información sobre el uso de cookies y cómo puedes gestionarlas, por
-        favor visita nuestra política de cookies en la sección de{" "}
-        <Link to="/politicas" className="text-[#250E62] font-bold underline">políticas</Link> en 
+        favor visita nuestra política de cookies en la sección {" "}
+        <Link to="/politicas" className="text-[#250E62] font-bold underline">políticas</Link> de 
         nuestro sitio.{" "}
         <span style={{ fontSize: "10px", color: "#250E62" }}>ODDI</span>
       </CookieConsent>
