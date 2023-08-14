@@ -8,7 +8,7 @@ import herrera from "../assets/jesusHerrera.jpg"
 function Contributors() {
   return (
     <div name="about" className="w-full bg-white py-12 px-2">
-      <h3 className="text-[#0076A5] font-bold max-w-[1240px] mx-auto md:text-2xl sm:text-xl text-xl">COLABORADORES</h3>
+      <h4 className="text-[#0076A5] font-bold max-w-[1240px] mx-auto md:text-2xl sm:text-xl text-xl">COLABORADORES</h4>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-4">
         <div className="flex  justify-center">
           <a
@@ -18,7 +18,7 @@ function Contributors() {
           >
             <img
               src={compluemprende}
-              alt="compluemprende"
+              alt="logo de compluemprende"
               style={{ width: "225px" }}
               className="py-6"
             />
@@ -32,7 +32,7 @@ function Contributors() {
           >
             <img
               src={dentmedia}
-              alt="dentmedia"
+              alt="logo de dentmedia"
               style={{ width: "250px" }}
               className="py-6"
             />
@@ -46,7 +46,7 @@ function Contributors() {
           >
             <img
               src={aeclinica}
-              alt="aeclinica"
+              alt="logo de aeclinica"
               style={{ width: "130px" }}
               className="py-6"
             />
@@ -60,7 +60,7 @@ function Contributors() {
           >
             <img
               src={herrera}
-              alt="JesusHerrera"
+              alt="logo de Jesus Herrera"
               style={{ width: "200px" }}
               className="py-6"
             />
