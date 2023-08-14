@@ -34,9 +34,9 @@ function InterestForm() {
     <div name="form" className="w-full py-8 text-white px-2">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 my-2">
-          <h1 className="md:text-2xl sm:text-xl text-xl font-bold pb-4">
+          <h4 className="md:text-2xl sm:text-xl text-xl font-bold pb-4">
             ¿QUIERES SABER MAS?
-          </h1>
+          </h4>
           <p>
             Escribenos y con gusto aclararemos cualquier inquietud que tengas.
           </p>

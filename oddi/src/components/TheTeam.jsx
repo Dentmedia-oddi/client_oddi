@@ -49,7 +49,7 @@ function TheTeam() {
       </div>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-4">
         <div>
-          <img className="w-[150px] mx-auto my-4" src={mj} alt="mjpicbw" />
+          <img className="w-[150px] mx-auto my-4" src={mj} alt="imagen de creador de la herramienta" />
           <p className="text-[#0076A5] font-regular text-center">
             Ma. Julia Fernández
           </p>
@@ -75,7 +75,7 @@ function TheTeam() {
         </div>
 
         <div>
-          <img className="w-[150px] mx-auto my-4" src={gaby} alt="gabypicbw" />
+          <img className="w-[150px] mx-auto my-4" src={gaby} alt="imagen de desarrollador web" />
           <p className="text-[#0076A5] font-regular text-center">
             Gabriela Acevedo
           </p>
@@ -104,7 +104,7 @@ function TheTeam() {
           <img
             className="w-[150px] mx-auto my-4"
             src={franco}
-            alt="franpicbw"
+            alt="imagen de desarrollador web"
           />
           <p className="text-[#0076A5] font-regular text-center">
             Franco Andres Diaz
@@ -130,7 +130,7 @@ function TheTeam() {
           </div>
         </div>
         <div>
-          <img className="w-[150px] mx-auto my-4" src={alex} alt="alexpicbw" />
+          <img className="w-[150px] mx-auto my-4" src={alex} alt="imagen de desarrollador web" />
           <p className="text-[#0076A5] font-regular text-center">
             Alexander Milano
           </p>

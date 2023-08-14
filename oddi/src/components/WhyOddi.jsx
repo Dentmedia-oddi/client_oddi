@@ -7,15 +7,15 @@ import icon3 from "../assets/icon3.png";
 function WhyOddi() {
   return (
     <div name="about" className="w-full bg-white py-6 px-4">
-      <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl max-w-[1240px] mx-auto grid">
+      <h5 className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl max-w-[1240px] mx-auto grid">
         ¿POR QUÉ ELEGIR ODDI?
-      </p>
+      </h5>
       <br />
       <div className="max-w-[1150px] mx-auto grid">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-1 flex justify-center items-center">
             <div className="h-4 w-4 sm:h-10 sm:w-10 md:h-14 md:w-14">
-              <img src={icon1} alt="icon1" className="h-full w-full mx-auto" />
+              <img src={icon1} alt="_" className="h-full w-full mx-auto" />
             </div>
           </div>
           <div className="col-span-11">
@@ -28,7 +28,7 @@ function WhyOddi() {
 
           <div className="col-span-1 flex justify-center items-center">
             <div className="h-4 w-4 sm:h-10 sm:w-10 md:h-14 md:w-14">
-              <img src={icon2} alt="icon2" className="h-full w-full mx-auto" />
+              <img src={icon2} alt="_" className="h-full w-full mx-auto" />
             </div>
           </div>
           <div className="col-span-11">
@@ -42,7 +42,7 @@ function WhyOddi() {
 
           <div className="col-span-1 flex justify-center items-center">
             <div className="h-4 w-4 sm:h-10 sm:w-10 md:h-14 md:w-14">
-              <img src={icon3} alt="icon3" className="h-full w-full mx-auto" />
+              <img src={icon3} alt="_" className="h-full w-full mx-auto" />
             </div>
           </div>
           <div className="col-span-11">

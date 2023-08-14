@@ -15,17 +15,17 @@ function Landing() {
   );
   return (
     <div className="text-white py-32">
-      <div className="max-w-[500px] mt-[-80px] w-full  mx-auto text-center flex flex-col justify-center ">
+      <div className="max-w-[600px] mt-[-80px] w-full  mx-auto text-center flex flex-col justify-center ">
         <h1 className="md:text-7xl sm:text-6xl text-3xl  md:py-2 font-bold ">
           ODDI
         </h1>
-        <h3 className=" text-[#0076A5] md:text-4xl sm:text-2xl text-xl  md:py-2">
+        <h2 className=" text-[#0076A5] md:text-4xl sm:text-2xl text-xl  md:py-2">
           Odontología digital guiada
-        </h3>
+        </h2>
         <div className="flex justify-center items-center">
-          <p className="md:text-2xl sm:text-xl text-xl font-regular">
+          <h3 className="md:text-2xl sm:text-xl text-xl font-regular">
             Plantillas estructuradas para tus entradas médicas
-          </p>
+          </h3>
         </div>
         <p className=" text-[#1DCAD3] md:text-3xl sm:text-xl text-xl font-regular ">
           {word}

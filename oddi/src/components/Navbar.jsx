@@ -24,7 +24,7 @@ function Navbar() {
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-      <img src={Logo} alt="Logo" style={{ width: "100px" }} />
+      <img src={Logo} alt="Logo de oddi" style={{ width: "100px" }} />
 
       {isHomePage && (
         <ul className="hidden md:flex">
@@ -62,7 +62,7 @@ function Navbar() {
             : "fixed left-0 top-0 w-[60%] h-full border-r border-[#250E62] bg-[#250E62]  ease-in-out duration-500 "
         }
       >
-        <img src={Logo} alt="Logo" style={{ width: "80px" }} className="m-4" />
+        <img src={Logo} alt="Logo de oddi" style={{ width: "80px" }} className="m-4" />
         <ul className="pt-4">
           <li className="p-4 border-b">
             <Link

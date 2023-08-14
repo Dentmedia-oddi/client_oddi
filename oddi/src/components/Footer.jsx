@@ -9,7 +9,7 @@ function Footer() {
       <div>
         <img
           src={Logo}
-          alt="Logo"
+          alt="Logo de Oddi"
           style={{ width: "120px" }}
           className="py-2"
         />
