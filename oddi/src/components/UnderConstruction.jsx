@@ -8,9 +8,9 @@ function UnderConstruction() {
 
   return (
     <div>
-      <div name="about" className="w-full bg-white py-20 px-4">
+      <div name="construction" className="w-full bg-white py-20 px-4">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
-          <img className="w-[450px] mx-auto" src={under} alt="Imagen de sitio en construccion" />
+          <img className="w-[450px] mx-auto" src={under} alt="Imagen de sitio en construccion" title="construccion" />
           <div className="flex flex-col justify-center">
             <p className="text-[#0076A5] font-bold text-center md:text-4xl sm:text-2xl text-xl  md:py-2">
               ¡PLANTILLA EN CONSTRUCCIÓN!

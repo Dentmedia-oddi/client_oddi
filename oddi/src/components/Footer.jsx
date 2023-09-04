@@ -10,6 +10,7 @@ function Footer() {
         <img
           src={Logo}
           alt="Logo de Oddi"
+          title="oddi"
           style={{ width: "120px" }}
           className="py-2"
         />
@@ -48,7 +49,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className=" px-2 font-bold text-[#0076A5]">LEGAL</h6>
+          <p className=" px-2 font-bold text-[#0076A5]">LEGAL</p>
           <ul>
             <a href="/politicas">
               <li className="py-2 px-2 text-sm">Políticas</li>
