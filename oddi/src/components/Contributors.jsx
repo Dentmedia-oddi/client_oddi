@@ -1,6 +1,6 @@
 import React from "react";
 import compluemprende from "../assets/logo-compluemprende-2-.jpg";
-import dentmedia from "../assets/dentmedia.jpg";
+import dentmedia from "../assets/dentMedia.jpg";
 import aeclinica from "../assets/aeclinicadental.png"
 import herrera from "../assets/jesusHerrera.jpg"
 
