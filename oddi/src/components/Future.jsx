@@ -6,9 +6,9 @@ function Future() {
     <div className="w-full bg-white py-8 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <div className="flex flex-col justify-center text-justify">
-          <h1 className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
+          <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
             EL FUTURO DE LA PRÁCTICA DENTAL
-          </h1>
+          </p>
           <br />
 
           <p>
@@ -31,6 +31,7 @@ function Future() {
           className="w-[280px] mx-auto my-4 float-right"
           src={MjPhoto}
           alt="Imagen de creador de la herramienta"
+          title="Creador de ODDI"
         />
       </div>
     </div>

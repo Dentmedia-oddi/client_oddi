@@ -23,9 +23,9 @@ function Landing() {
           Odontología digital guiada
         </h2>
         <div className="flex justify-center items-center">
-          <h3 className="md:text-2xl sm:text-xl text-xl font-regular">
+          <p className="md:text-2xl sm:text-xl text-xl font-regular">
             Plantillas estructuradas para tus entradas médicas
-          </h3>
+          </p>
         </div>
         <p className=" text-[#1DCAD3] md:text-3xl sm:text-xl text-xl font-regular ">
           {word}

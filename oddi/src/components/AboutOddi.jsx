@@ -9,11 +9,12 @@ function AboutOddi() {
           className="w-[380px] mx-auto my-4 py-6"
           src={aboutpic}
           alt="Imagen demostrativa sobre tiempo"
+          title="Imagen ilustrativa"
         />
         <div className="flex flex-col justify-center text-justify ">
-          <h1 className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
+          <h3 className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
             ACERCA DE ODDI
-          </h1>
+          </h3>
           <br />
           <p>
             ¡Optimiza tus apuntes en la historia clínica dental con facilidad!

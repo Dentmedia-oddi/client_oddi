@@ -8,8 +8,9 @@ import UnderConstruction from "./components/UnderConstruction";
 import CookieConsent from "react-cookie-consent";
 import Policies from "./components/Policies";
 import Disclaimer from "./components/Disclaimer";
+import NotFound404 from "./components/NotFound404";
 
-function App({redirectToCookies}) {
+function App() {
   return (
     <div>
       <Navbar />
@@ -19,6 +20,7 @@ function App({redirectToCookies}) {
         <Route path="/construccion" element={<UnderConstruction />} />
         <Route path="/politicas" element={<Policies />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="*" element={<NotFound404 />} />
       </Routes>
       <Copyright />
 
