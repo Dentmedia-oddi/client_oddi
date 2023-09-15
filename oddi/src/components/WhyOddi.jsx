@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
@@ -64,17 +63,8 @@ function WhyOddi() {
           aplicación web atractiva, sencilla y profesional para optimizar tus
           apuntes en la historia clínica dental. ¡Comienza hoy mismo tu
           transformación dental con ODDI!
-          <br />
-          <a href="/">
-            <Link
-              to="form"
-              className="text-[#0076A5] underline"
-              smooth={true}
-              duration={500}
-            >
-              Regístrate ahora.
-            </Link>
-          </a>
+          
+          
         </p>
       </div>
     </div>

@@ -9,6 +9,7 @@ import CookieConsent from "react-cookie-consent";
 import Policies from "./components/Policies";
 import Disclaimer from "./components/Disclaimer";
 import NotFound404 from "./components/NotFound404";
+import FormPolicy from "./components/FormPolicy";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/politicas" element={<Policies />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="*" element={<NotFound404 />} />
+        <Route path="/politica-de-formulario" element={<FormPolicy/>} />
 
       </Routes>
       <Copyright />
