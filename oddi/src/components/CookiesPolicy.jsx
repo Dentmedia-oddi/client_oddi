@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function CookiesPolicy() {
@@ -8,9 +8,9 @@ function CookiesPolicy() {
   return (
     <div name="cookies" id="1" className="w-full bg-white py-9 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
-          <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
-            POLÍTICA DE COOKIES
-          </p>
+        <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
+          POLÍTICA DE COOKIES
+        </p>
         <div className="flex flex-col justify-center text-justify">
           <br />
           <p className="text-[#0076A5] font-regular">
@@ -24,43 +24,48 @@ function CookiesPolicy() {
           <br />
           <br />
           <p>
-            Introducción <br /> Bienvenido/a a oddi.es (&quot;Nosotros&quot;,
-            &quot;Nuestro&quot; o &quot;Sitio&quot;). Esta política de cookies
-            explica cómo utilizamos cookies y tecnologías similares en nuestro
-            sitio web de acuerdo con la legislación de la Unión Europea, en
-            particular el Reglamento General de Protección de Datos (RGPD) y la
-            Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de
-            los derechos digitales (LOPDGDD). <br />
+            Introducción <br /> Bienvenido/a a oddi.es ("Nosotros", "Nuestro" o
+            "Sitio"). Esta política de cookies explica cómo utilizamos cookies y
+            tecnologías similares en nuestro sitio web de acuerdo con la
+            legislación de la Unión Europea, en particular el Reglamento General
+            de Protección de Datos (RGPD) y la Ley Orgánica 3/2018, de
+            Protección de Datos Personales y garantía de los derechos digitales
+            (LOPD GDD). <br />
             <br /> ¿Qué son las cookies? <br />
             <br /> Las cookies son pequeños archivos de texto que se almacenan
             en tu dispositivo (ordenador, teléfono móvil o tableta) cuando
             visitas nuestro sitio web. Estas cookies nos ayudan a mejorar la
             funcionalidad y el rendimiento de nuestro sitio web, a personalizar
             tu experiencia de usuario y a proporcionarte contenido y anuncios
-            relevantes. <br />
+            relevantes.
+            <br />
             <br />
             Tipos de cookies que utilizamos <br />
             3.1 Cookies esenciales <br />
             <br />
             Estas cookies son necesarias para que nuestro sitio web funcione
             correctamente. Nos permiten autenticar usuarios, mantener sesiones
-            de usuario activas, y garantizar la seguridad del sitio. <br />
+            de usuario activas, y garantizar la seguridad del sitio.
             <br />
-            3.2 Cookies de rendimiento Utilizamos cookies de rendimiento para
-            recopilar información sobre cómo interactúas con nuestro sitio web,
-            incluyendo las páginas que visitas con más frecuencia y si
-            experimentas algún error. Estas cookies nos ayudan a mejorar el
-            rendimiento de nuestro sitio y a ofrecerte una mejor experiencia de
-            usuario. <br />
             <br />
-            3.3 Cookies de funcionalidad Las cookies de funcionalidad nos
-            permiten recordar tus preferencias y elecciones (como tu idioma
-            preferido) para mejorar tu experiencia en nuestro sitio web. <br />
+            3.2 Cookies de rendimiento <br />
+            <br /> Utilizamos cookies de rendimiento para recopilar información
+            sobre cómo interactúas con nuestro sitio web, incluyendo las páginas
+            que visitas con más frecuencia y si experimentas algún error. Estas
+            cookies nos ayudan a mejorar el rendimiento de nuestro sitio y a
+            ofrecerte una mejor experiencia de usuario.
             <br />
-            3.4 Cookies de marketing y publicidad Utilizamos cookies de
-            marketing y publicidad para mostrarte anuncios y contenido
-            personalizado que creemos que puede ser relevante para ti, según tu
-            historial de navegación y comportamiento en nuestro sitio web.{" "}
+            <br />
+            3.3 Cookies de funcionalidad <br />
+            <br /> Las cookies de funcionalidad nos permiten recordar tus
+            preferencias y elecciones (como tu idioma preferido) para mejorar tu
+            experiencia en nuestro sitio web. <br />
+            <br />
+            3.4 Cookies de marketing y publicidad <br />
+            <br /> Utilizamos cookies de marketing y publicidad para mostrarte
+            anuncios y contenido personalizado que creemos que puede ser
+            relevante para ti, según tu historial de navegación y comportamiento
+            en nuestro sitio web.
             <br />
             <br /> Consentimiento para el uso de cookies <br />
             Al visitar nuestro sitio web, te presentaremos una ventana emergente
@@ -86,7 +91,8 @@ function CookiesPolicy() {
             Nos reservamos el derecho de modificar esta política de cookies en
             cualquier momento. Cualquier cambio será publicado en esta página, y
             la fecha de la última actualización se revisará al principio del
-            documento. <br />
+            documento.
+            <br />
             <br />
             Contáctanos <br />
             Si tienes alguna pregunta o inquietud acerca de esta política de

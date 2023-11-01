@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Tabs from "./Tabs";
 
 function Policies() {
-  const tabs = ["Privacidad", "Cookies", "Protección de datos", "Protección datos formularios", "Responsabilidad de enlaces"];
+  const tabs = ["Privacidad", "Cookies", "Responsabilidad de enlaces"];
 
   useEffect(() => {
     window.scrollTo(0, 0);

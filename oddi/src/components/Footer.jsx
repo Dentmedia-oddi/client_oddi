@@ -36,11 +36,11 @@ function Footer() {
             </a>
 
             <a href="/construccion">
-              <li className="py-2 px-2 text-sm">Solicitar demo</li>
+              <li className="py-2 px-2 text-sm">Probar</li>
             </a>
 
             <a href="/equipo">
-              <li className="py-2 px-2 text-sm">Nuestro equipo</li>
+              <li className="py-2 px-2 text-sm">Equipo</li>
             </a>
 
             <a href="https://blog.oddi.es/">

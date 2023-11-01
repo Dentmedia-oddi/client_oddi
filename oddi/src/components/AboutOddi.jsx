@@ -4,14 +4,14 @@ import aboutpic from "../assets/Deadline-pana.png";
 function AboutOddi() {
   return (
     <div name="about" className="w-full bg-white  px-4">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+      <div className="max-w-[980px] mx-auto grid md:grid-cols-2">
         <img
-          className="w-[380px] mx-auto my-4 py-6"
+          className="w-[380px] my-4 py-6"
           src={aboutpic}
           alt="Imagen demostrativa sobre tiempo"
           title="Imagen ilustrativa"
         />
-        <div className="flex flex-col justify-center text-justify ">
+        <div className="flex flex-col justify-center text-justify  ">
           <h3 className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl">
             ACERCA DE ODDI
           </h3>
@@ -30,6 +30,8 @@ function AboutOddi() {
             <br />
           </p>
         </div>
+
+        <div></div>
       </div>
     </div>
   );
