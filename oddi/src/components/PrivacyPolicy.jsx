@@ -1,6 +1,5 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-
 
 function PrivacyPolicy({ redirectToCookies }) {
   useEffect(() => {
@@ -24,17 +23,18 @@ function PrivacyPolicy({ redirectToCookies }) {
           <br />
           <p>
             Introducción <br />
-            Bienvenido/a a oddi.es (&quot;Nosotros&quot;, &quot;Nuestro&quot; o
-            &quot;Sitio&quot;). En ODDI, nos comprometemos a proteger y respetar
-            tu privacidad y tus derechos de protección de datos. Esta política
-            de privacidad describe cómo recopilamos, utilizamos, compartimos y
-            protegemos la información personal que obtenemos a través de nuestro
-            sitio web, de acuerdo con el Reglamento General de Protección de
-            Datos (RGPD) y la Ley Orgánica 3/2018, de Protección de Datos
-            Personales y garantía de los derechos digitales (LOPDGDD). <br />
+            Bienvenido/a a oddi.es ("Nosotros", "Nuestro" o "Sitio"). En ODDI,
+            nos comprometemos a proteger y respetar tu privacidad y tus derechos
+            de protección de datos. Esta política de privacidad describe cómo
+            recopilamos, utilizamos, compartimos y protegemos la información
+            personal que obtenemos a través de nuestro sitio web, de acuerdo con
+            el Reglamento General de Protección de Datos (RGPD) y la Ley
+            Orgánica 3/2018, de Protección de Datos Personales y garantía de los
+            derechos digitales (LOPDGDD).
+            <br />
             <br /> Al utilizar nuestro sitio web, estás aceptando las prácticas
             descritas en esta política de privacidad. Si no estás de acuerdo con
-            esta política, por favor, no utilices nuestro sitio. <br />
+            esta política, por favor, no utilices nuestro sitio <br />
             <br />
             Información que recopilamos: <br />
             <br /> 2.1 Información proporcionada por el usuario. <br />
@@ -58,7 +58,7 @@ function PrivacyPolicy({ redirectToCookies }) {
               Puedes obtener más información sobre el uso de cookies en nuestra
             </strong>{" "}
             <button
-               onClick={redirectToCookies}
+              onClick={redirectToCookies}
               className="text-[#0076A5] font-bold underline"
             >
               [Política de Cookies]
@@ -66,7 +66,7 @@ function PrivacyPolicy({ redirectToCookies }) {
             <br />
             <br /> Uso de la información <br /> Utilizamos la información
             recopilada para los siguientes propósitos: <br />
-            <ul className="mx-auto max-w-[1240px]">
+            <ul className="mx-auto max-w-[1240px] list-disc px-6">
               <li>Proporcionar y mejorar nuestros servicios y productos.</li>
               <li>
                 Procesar tus pedidos y facilitar la comunicación sobre ellos.
@@ -78,21 +78,21 @@ function PrivacyPolicy({ redirectToCookies }) {
               <li>
                 Enviar información promocional o noticias relevantes sobre
                 nuestros servicios, pero solo si has dado tu consentimiento para
-                recibir dichas comunicaciones.{" "}
+                recibir dichas comunicaciones.
               </li>
               <li>
                 Analizar el tráfico del sitio y mejorar su rendimiento y
                 funcionalidad.
               </li>
               <li>
-                Cumplir con nuestras obligaciones legales y resolver disputas.{" "}
+                Cumplir con nuestras obligaciones legales y resolver disputas.
               </li>
             </ul>
             <br />
             Base legal para el procesamiento de datos <br />
             El procesamiento de tus datos personales se llevará a cabo
             principalmente sobre la base de: <br />
-            <ul className="mx-auto max-w-[1240px]">
+            <ul className="mx-auto max-w-[1240px] list-disc px-6">
               <li>
                 El consentimiento que nos proporcionas al aceptar esta política
                 de privacidad.
@@ -111,7 +111,7 @@ function PrivacyPolicy({ redirectToCookies }) {
             Compartir información
             <br /> Podemos compartir tu información personal con terceros en las
             siguientes circunstancias: <br />
-            <ul className="mx-auto max-w-[1240px]">
+            <ul className="mx-auto max-w-[1240px] list-disc px-6">
               <li>
                 Con proveedores de servicios que trabajen en nuestro nombre y
                 nos ayuden a operar nuestro sitio y brindar servicios.
@@ -135,10 +135,11 @@ function PrivacyPolicy({ redirectToCookies }) {
             personal que recopilamos y mantenemos. Utilizamos medidas de
             seguridad técnicas y organizativas apropiadas para proteger tus
             datos personales contra el acceso no autorizado, la divulgación, la
-            alteración o la destrucción accidental o ilícita. <br />
+            alteración o la destrucción accidental o ilícita.
+            <br />
             <br />
             Tus derechos <br />
-            De acuerdo con el RGPD y la LOPDGDD, tienes los siguientes derechos
+            De acuerdo con el RGPD y la LOPD GDD, tienes los siguientes derechos
             sobre tus datos personales:
             <ul className="mx-auto max-w-[1240px] list-disc px-6">
               <li>
@@ -180,7 +181,8 @@ function PrivacyPolicy({ redirectToCookies }) {
             </ul>
             <br />
             Si deseas ejercer estos derechos, por favor contáctanos a través de
-            los medios proporcionados al final de esta política. <br />
+            los medios proporcionados al final de esta política.
+            <br />
             <br />
             Periodo de retención de datos <br />
             Conservaremos tus datos personales durante el tiempo necesario para
@@ -194,13 +196,15 @@ function PrivacyPolicy({ redirectToCookies }) {
             ubicados fuera de la Unión Europea. En tales casos, tomaremos
             medidas para asegurarnos de que tus datos personales estén
             protegidos de acuerdo con las leyes de protección de datos
-            aplicables. <br />
+            aplicables.
+            <br />
             <br />
             Enlaces a sitios de terceros <br />
             Nuestro sitio puede contener enlaces a sitios web de terceros. No
             somos responsables de las prácticas de privacidad de esos sitios y
             te recomendamos revisar sus políticas de privacidad antes de
-            proporcionarles información personal. <br />
+            proporcionarles información personal.
+            <br />
             <br />
             Cambios en esta política
             <br />
@@ -217,6 +221,18 @@ function PrivacyPolicy({ redirectToCookies }) {
               [info@oddi.es]
             </a>
             .
+            <br />
+            <br />
+            Responsable del Tratamiento de Datos Personales <br /> [Maria Julia
+            Fernández Balice] actúa como la Responsable del Tratamiento de los
+            Datos Personales procesados. Nuestra información de contacto es la
+            siguiente: <br />
+            <br />
+            [Maria Julia Fernandez Balice] <br />{" "}
+            <a href="mailto:info@oddi.es" className="text-[#0076A5]">
+              [info@oddi.es]
+            </a>
+            .<br /> [Madrid, España]
             <br />
             <br />
             Gracias por leer nuestra política de privacidad.

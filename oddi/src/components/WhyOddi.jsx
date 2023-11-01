@@ -6,11 +6,11 @@ import icon3 from "../assets/icon3.png";
 function WhyOddi() {
   return (
     <div name="about" className="w-full bg-white py-6 px-4">
-      <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl max-w-[1240px] mx-auto grid">
+      <p className="text-[#0076A5] font-bold md:text-2xl sm:text-xl text-xl max-w-[940px] mx-auto grid">
         ¿POR QUÉ ELEGIR ODDI?
       </p>
       <br />
-      <div className="max-w-[1150px] mx-auto grid">
+      <div className="max-w-[925px] mx-auto ">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-1 flex justify-center items-center">
             <div className="h-4 w-4 sm:h-10 sm:w-10 md:h-14 md:w-14">
@@ -56,7 +56,7 @@ function WhyOddi() {
       </div>
       <br />
 
-      <div className="max-w-[1240px] mx-auto grid">
+      <div className="max-w-[925px] mx-auto grid">
         <p className="text-justify">
           Simplifica tu flujo de trabajo, atiende más pacientes y conviértete en
           un líder de tu especialidad. Regístrate ahora y experimenta una

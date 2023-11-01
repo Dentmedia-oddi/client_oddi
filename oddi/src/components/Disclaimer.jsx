@@ -13,12 +13,12 @@ function Disclaimer() {
           <br />
           <p>
             Los usuarios reconocen por la presente que las herramientas en línea
-            listadas en www.oddi.es no están certificadas como
-            &quot;dispositivos médicos&quot; y que los usuarios solo tienen
-            derecho a acceder al &quot;estado actual&quot; tal como se publica
-            en línea. Los usuarios utilizan estas herramientas en línea bajo su
-            propia responsabilidad y riesgo. Ninguna de estas herramientas
-            guarda los datos ingresados en sus formularios en línea. <br />
+            listadas en www.oddi.es no están certificadas como "dispositivos
+            médicos" y que los usuarios solo tienen derecho a acceder al "estado
+            actual" tal como se publica en línea. Los usuarios utilizan estas
+            herramientas en línea bajo su propia responsabilidad y riesgo.
+            Ninguna de estas herramientas guarda los datos ingresados en sus
+            formularios en línea. <br />
             <br />
             Los autores de www.oddi.es no ofrecen garantías sobre el uso de sus
             herramientas para un propósito específico. Los autores no se hacen
@@ -27,7 +27,7 @@ function Disclaimer() {
             <br />
             Los autores agradecen cualquier comentario sobre sus herramientas en
             línea. Sin embargo, los autores no están obligados a proporcionar
-            ningún tipo de soporte técnico, médico u otro tipo de soporte.{" "}
+            ningún tipo de soporte técnico, médico u otro tipo de soporte.
             <br />
             <br />
             Este descargo de responsabilidad se rige por la legislación de la

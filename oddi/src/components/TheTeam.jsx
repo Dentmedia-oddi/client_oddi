@@ -80,7 +80,7 @@ function TheTeam() {
             Gabriela Acevedo
           </p>
           <p className="text-[#0076A5] font-regular text-center">
-            Frontend developer | Senior Customer Success Specialist
+            Frontend developer | QA engineer
           </p>
           <div className="flex justify-center">
             <Link
@@ -111,7 +111,7 @@ function TheTeam() {
             Franco Andres Diaz
           </p>
           <p className="text-[#0076A5] font-regular text-center">
-            Frontend developer | UX & UI Designer
+            Full-Stack developer
           </p>
           <div className="flex justify-center">
             <Link

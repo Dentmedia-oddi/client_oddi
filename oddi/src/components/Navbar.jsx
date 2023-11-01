@@ -23,28 +23,32 @@ function Navbar() {
   }, [location]);
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-      <img src={Logo} alt="Logo de oddi" title="oddi" style={{ width: "100px" }} />
+    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto text-white bg-[#250E62] ">
+      <a href="/">
+        <img
+          src={Logo}
+          alt="Logo de oddi"
+          title="oddi"
+          style={{ width: "100px" }}
+        />
+      </a>
 
       {isHomePage && (
-        <ul className="hidden md:flex">
-          {/* <li className="p-4">
-            <Link
-              to="about"
-              smooth={true}
-              duration={500}
-              onClick={handleCloseNav}
-            >
-              Sobre ODDI
-            </Link>
-          </li> */}
-          <li className="p-4">
-            <a
-              href="/construccion"
-              onClick={handleCloseNav}
-              
-            >
-              SOLICITAR DEMO
+        <ul className="hidden md:flex h-24">
+          <li className="p-10">
+            <a href="https://blog.oddi.es/">BLOG</a>
+          </li>
+          <li className="p-10">
+            <a href="/equipo" className="p-10 mr-22px">
+              EQUIPO
+            </a>
+          </li>
+
+          <li className="p-0 ">
+            <a  href="/construccion" onClick={handleCloseNav}>
+              <button className="bg-[#250E62] border-white rounded-md my-6 px-4 py-3 text-white  group border-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3] hover:text-[#250E62]">
+                PROBAR
+              </button>
             </a>
           </li>
         </ul>
@@ -52,9 +56,10 @@ function Navbar() {
 
       {/* mobile component */}
       {isHomePage && (
-      <div onClick={handleNav} className="block md:hidden">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-      </div>)}
+        <div onClick={handleNav} className="block md:hidden">
+          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        </div>
+      )}
       <div
         className={
           !nav
@@ -62,7 +67,13 @@ function Navbar() {
             : "fixed left-0 top-0 w-[60%] h-full border-r border-[#250E62] bg-[#250E62]  ease-in-out duration-500 "
         }
       >
-        <img src={Logo} alt="Logo de oddi" title="oddi" style={{ width: "80px" }} className="m-4" />
+        <img
+          src={Logo}
+          alt="Logo de oddi"
+          title="oddi"
+          style={{ width: "80px" }}
+          className="m-4"
+        />
         <ul className="pt-4">
           <li className="p-4 border-b">
             <Link
@@ -74,12 +85,15 @@ function Navbar() {
               SOBRE ODDI
             </Link>
           </li>
+          <li className="p-4 border-b">
+            <a href="/equipo">EQUIPO</a>
+          </li>
+          <li className="p-4 border-b">
+            <a href="https://blog.oddi.es/">BLOG</a>
+          </li>
           <li className="p-4">
-            <a
-              href="/construccion"
-              onClick={handleCloseNav}
-            >
-              SOLICITAR DEMO
+            <a href="/construccion" onClick={handleCloseNav}>
+              PROBAR
             </a>
           </li>
         </ul>
