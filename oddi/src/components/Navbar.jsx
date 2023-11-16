@@ -45,7 +45,7 @@ function Navbar() {
           </li>
 
           <li className="p-0 ">
-            <a  href="/construccion" onClick={handleCloseNav}>
+            <a  href="https://form.oddi.es/" onClick={handleCloseNav}>
               <button className="bg-[#250E62] border-white rounded-md my-6 px-4 py-3 text-white  group border-2 flex items-center hover:bg-[#1DCAD3] hover:border-[#1DCAD3] hover:text-[#250E62]">
                 PROBAR
               </button>
@@ -92,7 +92,7 @@ function Navbar() {
             <a href="https://blog.oddi.es/">BLOG</a>
           </li>
           <li className="p-4">
-            <a href="/construccion" onClick={handleCloseNav}>
+            <a href="https://form.oddi.es/" onClick={handleCloseNav}>
               PROBAR
             </a>
           </li>
